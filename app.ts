@@ -9,3 +9,13 @@ console.log("add = ", add);
 fun1();
 
 
+
+//2 nd method
+
+const fun2 = (m:number,n:string) =>m+n
+const add2:string = fun2(1,'hello').toUpperCase();
+console.log("add =",add2);
+
+
+
+
