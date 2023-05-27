@@ -1,0 +1,12 @@
+{
+  "name": "typescriptc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "start": "node.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
