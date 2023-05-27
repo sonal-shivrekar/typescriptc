@@ -18,3 +18,8 @@ console.log("add2 =", add2);
 //array
 var arr = [1, 2, 4, 'hello', 7, 9.5, 'code'];
 console.log("arr = ", arr);
+console.log("length = ", arr.length);
+console.log("pop = ", arr.pop());
+console.log(arr);
+console.log("push = ", arr.push('sum'));
+console.log(arr);
