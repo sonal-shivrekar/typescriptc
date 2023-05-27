@@ -15,3 +15,6 @@ fun1();
 var fun2 = function (m, n) { return m + n; };
 var add2 = fun2(1, 'hello').toUpperCase();
 console.log("add2 =", add2);
+//array
+var arr = [1, 2, 4, 'hello', 7, 9.5, 'code'];
+console.log("arr = ", arr);
