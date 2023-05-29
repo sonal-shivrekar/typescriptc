@@ -12,8 +12,8 @@ var fun1 = function () {
 };
 fun1();
 //2 nd method
-var fun2 = function (m, n) { return m + n; };
-var add2 = fun2(1, 'hello').toUpperCase();
+var code = function (m, n) { return m + n; };
+var add2 = code(1, 'hello').toUpperCase();
 console.log("add2 =", add2);
 //array
 var arr = [1, 2, 4, 'hello', 7, 9.5, 'code'];
@@ -23,3 +23,9 @@ console.log("pop = ", arr.pop());
 console.log(arr);
 console.log("push = ", arr.push('sum'));
 console.log(arr);
+var fun3 = function () {
+    var statusAdd = 'status-add';
+    var statusSub = 'status-sub';
+    var status = 'add';
+};
+fun3();
